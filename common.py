@@ -4,7 +4,7 @@ import mimetypes
 import re
 from zipfile import ZipFile
 
-from cog import Path
+from pathlib import Path
 
 
 def clean_directory(path):
